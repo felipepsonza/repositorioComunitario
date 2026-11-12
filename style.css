@@ -11,7 +11,7 @@ label {
     font-size: 16px;
 }
 
-.form {
+#form {
     width: 300px;
     margin: 30px auto;
     padding: 20px;
@@ -33,7 +33,7 @@ input:focus {
     border-color: blue;
 }
 
-.button {
+#button {
     padding: 10px 20px;
     background-color: blue;
     color: white;
