@@ -3,15 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Minha Cor Favorita</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <form id="form">
         <label for="cor">Digite sua cor favorita:</label>
-        <input type="text" name="cor" id="cor">
+        <input type="text" name="cor" id="cor" placeholder="Ex: red, #ff0000, azul...">
         <button id="button" type="button">Enviar</button>
+        <div id="mensagem"></div>
     </form>
+
+    <div id="historico-container">
+        <p style="margin-bottom: 8px; font-size: 14px;">Histórico de cores:</p>
+        <ul id="historico-lista"></ul>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
