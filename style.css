@@ -6,7 +6,13 @@
 }
 
 body {
-    background-color: #121212;
+    background: linear-gradient(rgba(18, 18, 18, 0.85), rgba(18, 18, 18, 0.85)), 
+                url('https://static.wikia.nocookie.net/peppapedia/images/7/73/Jorjie.png/revision/latest?cb=20250703153822&path-prefix=pt-br');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
     color: white;
     display: flex;
     flex-direction: column;
