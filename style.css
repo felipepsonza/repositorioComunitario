@@ -6,12 +6,10 @@
 }
 
 body {
-    background: linear-gradient(rgba(18, 18, 18, 0.85), rgba(18, 18, 18, 0.85));
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
     color: white;
     display: flex;
     flex-direction: column;
